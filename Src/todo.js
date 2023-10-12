@@ -52,7 +52,7 @@ function renderTodo(){
 
     function deleteTodo(i) {
 
-        console.log(i,name);
+        console.log(i);
         const confirmDelete = confirm(`Are you sure you want to delete? `);
         if (confirmDelete) {
             TodoList.splice(i, 1);
